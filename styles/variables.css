@@ -11,3 +11,4 @@
 --title-decor:#FF0070;
 --content-text-color:#F1B2CE;
 }
+@media (prefers-color-scheme: light) {}
