@@ -11,6 +11,7 @@
   --title-decor:#FF8DCB;
   --content-text-color:#353430;
   --decor-link:#FF8DCB;
+  --bg-color:#FFF1F7;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -25,6 +26,7 @@
   --title-decor:#FF8DCB;
   --content-text-color:#353430;
   --decor-link:#FF8DCB;
+  --bg-color:#FFF1F7;
 }
 }
   .theme-light .header__rec {
