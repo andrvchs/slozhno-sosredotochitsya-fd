@@ -24,7 +24,8 @@
   --text-color:#353430;
   --title-decor:#FF8DCB;
   --content-text-color:#353430;
-  --decor-link:#FF8DCB;}
+  --decor-link:#FF8DCB;
+}
 }
   .theme-light .header__rec {
       display: none;

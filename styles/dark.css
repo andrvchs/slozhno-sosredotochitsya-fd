@@ -17,6 +17,17 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+@media (prefers-color-scheme: dark){
+  :root {
+  --bg_page: url("../images/cover-image-dark.png");
+  --title-color:#DB00FF;
+  --accent-color:#FF0070;
+  --text-color:#000028;
+  --title-decor:#FF0070;
+  --content-text-color:#F1B2CE;
+  --decor-link:#FF0070;
+}
+}
 .theme-light .header__rec {
       display: block;
     }
