@@ -28,6 +28,7 @@
     --content-text-color: #353430;
     --decor-link: #ff8dcb;
     --bg-color: #fff1f7;
+    --footer-desktop-shadow:#FF0070;
   }
   .header__rec {
     display: none;
