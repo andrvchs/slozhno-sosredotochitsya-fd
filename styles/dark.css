@@ -6,30 +6,33 @@
 
 :root.theme-dark {
   --bg_page: url("../images/cover-image-dark.png");
-  --title-color:#DB00FF;
-  --accent-color:#FF0070;
-  --text-color:#000028;
-  --title-decor:#FF0070;
-  --content-text-color:#F1B2CE;
-  --decor-link:#FF0070;
-  --bg-color:#000028;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --text-color: #000028;
+  --title-decor: #ff0070;
+  --content-text-color: #f1b2ce;
+  --decor-link: #ff0070;
+  --bg-color: #000028;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
   :root {
-  --bg_page: url("../images/cover-image-dark.png");
-  --title-color:#DB00FF;
-  --accent-color:#FF0070;
-  --text-color:#000028;
-  --title-decor:#FF0070;
-  --content-text-color:#F1B2CE;
-  --decor-link:#FF0070;
-  --bg-color:#000028;
-}
+    --bg_page: url("../images/cover-image-dark.png");
+    --title-color: #db00ff;
+    --accent-color: #ff0070;
+    --text-color: #000028;
+    --title-decor: #ff0070;
+    --content-text-color: #f1b2ce;
+    --decor-link: #ff0070;
+    --bg-color: #000028;
+  }
+  .header__rec {
+    display: block;
+  }
 }
 .theme-light .header__rec {
-      display: block;
-    }
+  display: block;
+}
